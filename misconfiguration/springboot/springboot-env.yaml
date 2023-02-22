@@ -13,6 +13,9 @@ requests:
       - "{{BaseURL}}/env"
       - "{{BaseURL}}/actuator/env"
       - "{{BaseURL}}/actuator;/env;"
+      - "{{BaseURL}}/api/env"
+      - "{{BaseURL}}/api/actuator/env"
+      - "{{BaseURL}}/api/actuator;/env;"
 
     stop-at-first-match: true
     matchers-condition: and
